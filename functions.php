@@ -13,3 +13,14 @@
     wp_enqueue_style( 'theme-stylesheet', get_stylesheet_uri() , array() , filemtime( get_template_directory(). '/style.css' ) ,'all' );
  }
  add_action( 'wp_enqueue_scripts','fancy_lab_style' );
+
+
+ function fancy_lab_config(){
+   register_nav_menus(
+      array(
+         'fancy_lab_main_menu'      => 'Fancy Lab Main Menu',
+         'fancy_lab_footer_menu'      => 'Fancy Lab Footer Menu'
+      )
+   );
+ }
+ add_action( 'after_setup_theme', 'fancy_lab_config', 0 );
