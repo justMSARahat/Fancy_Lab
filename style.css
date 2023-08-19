@@ -1,0 +1,66 @@
+/*
+Theme Name: Fancy Lab
+Theme URI: https://msarahat.com/wordpress/fancy_lab/
+Author: MSA Rahat
+Author URI: https://msarahat.com/
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: fancylab
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/* Header - Main Menu */
+.main-menu{
+    padding: 0;
+}
+
+.main-menu ul{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0;
+}
+
+.main-menu ul li{
+    display: inline;
+    margin: 0 5px 0 0;
+}
+
+.main-menu ul li:last-child{
+    margin: 0;
+}
+
+/* Footer - Footer Menu */
+.footer-menu ul, .footer-widgets ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer-menu ul li{
+    display: inline;
+    margin: 0 10px 0 0;
+}
+
+.footer-menu ul li:last-child{
+    margin: 0;
+}
+
+.footer-menu ul li a{
+    color: #939393;
+    text-decoration: none;
+}
+
+.footer-menu ul li.current-menu-item a{
+    color: #ff9292;
+}
